@@ -4,6 +4,20 @@ This is a simple Web Application that simulates the work of a taxi service.
 The program can authenticate users, work with data of drivers, cars, 
 car manufacturers and work with the database.  
 ___________________________________________________________________________
+**It was used 3-tier architecture:**
+- _Controllers_ - Presentation layer;
+- _Service_ - Application layer;
+- _DAO_ - Data access layer.
+___________________________________________________________________________
+**Used technologies:**
+- Java 11;
+- Apache Tomcat - version 9.0.60;
+- MySQL;
+- Servlet;
+- JSP;
+- JSTL;
+- Log4j version 2.17.1.
+_____________________________________________________________________________
 **Your steps for successful usage of the App:**
 1. Config the **Apache Tomcat** version **9.0.xx**;
 2. In the **log4j2.xml** file in the line 7 change the path **_"logs\app.log"_** 
@@ -13,7 +27,7 @@ to your absolute local path;
 5. Run Tomcat Server;
 6. Click on "Register" on the login page and create a new driver profile;
 7. After you have been redirected to the login page, log in using the new login and password;
-8. And now you have access to all features of the program;
+8. And now you have access to all features of the program.
 ___________________________________________________________________________
 **The following features are available for use:**
 1. **_Display all drivers_** allows you to display all drivers from the database and to delete
